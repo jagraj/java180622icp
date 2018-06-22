@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: java180622icp
+  buildpack: liberty-for-java
+  path: ./target/java180622icp-1.0-SNAPSHOT.zip
+  memory: 512M
+  random-route: true
